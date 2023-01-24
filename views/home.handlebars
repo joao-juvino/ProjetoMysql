@@ -1,0 +1,14 @@
+<div class="d-flex w-100 flex-wrap justify-content-center">
+    {{#each posts}}
+
+    <div class="card m-3">
+        <div class="card-body">
+            <h5 class="card-title">{{titulo}}</h5>
+            <p class="card-text card-paragraph">{{conteudo}}</p>
+            <a href="/deletar/{{id}}" class="btn btn-primary">Deletar</a>
+        </div>
+    </div>
+
+    {{/each}}
+
+</div>
